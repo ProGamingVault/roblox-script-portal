@@ -6,7 +6,6 @@ export default function VerifyPage() {
   const router = useRouter();
 
   const handleSuccess = () => {
-    // Jab user human verification pass kar le, toh session save kar ke main portal par bhej dein
     sessionStorage.setItem('pgv_ad_verified', 'true');
     router.push('/');
   };
@@ -21,7 +20,7 @@ export default function VerifyPage() {
         
         <div className="flex justify-center pt-4">
           <Turnstile
-            siteKey="1x00000000000000000000AA" // Test key (baad mein apni real Cloudflare key laga sakte hain)
+            siteKey="1x00000000000000000000AA"
             onSuccess={handleSuccess}
           />
         </div>

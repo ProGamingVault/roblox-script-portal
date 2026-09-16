@@ -8,7 +8,6 @@ export default function ScriptPortal() {
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
   const CURRENT_ACTIVE_KEY = "PGV786"; 
-  const YOUTUBE_VIDEO_URL = "https://youtu.be/VMjMckT4TLg?si=UG7x5xRNRwCqTvpp"; 
 
   const scriptsList = [
     {
@@ -84,7 +83,7 @@ export default function ScriptPortal() {
               </button>
 
               <a
-                href={YOUTUBE_VIDEO_URL}
+                href="https://youtu.be/VMjMckT4TLg?si=UG7x5xRNRwCqTvpp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium px-4 py-3 rounded-xl transition duration-200 text-sm"

@@ -7,28 +7,16 @@ export default function ScriptPortal() {
   const [errorMessage, setErrorMessage] = useState('');
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
-  const CURRENT_ACTIVE_KEY = "PROGAMING2026"; 
-  const YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"; 
+  const CURRENT_ACTIVE_KEY = "PGV786"; 
+  const YOUTUBE_VIDEO_URL = "https://youtu.be/VMjMckT4TLg"; 
 
   // Yahan aap apni multiple scripts add kar sakte hain
   const scriptsList = [
     {
       id: 1,
       title: "Steal an Egg Script",
-      hub: "Zeroin Hub",
-      code: `loadstring(game:HttpGet("https://raw.githubusercontent.com/SkiibiteTech/scripts/main/steal-an-egg.lua"))()`
-    },
-    {
-      id: 2,
-      title: "Blox Fruits Script",
-      hub: "Redz Hub",
-      code: `loadstring(game:HttpGet("https://raw.githubusercontent.com/SkiibiteTech/scripts/main/bloxfruits.lua"))()`
-    },
-    {
-      id: 3,
-      title: "Murder Mystery 2 Script",
-      hub: "Vynixius Hub",
-      code: `loadstring(game:HttpGet("https://raw.githubusercontent.com/SkiibiteTech/scripts/main/mm2.lua"))()`
+      hub: "Fyy Hub",
+      code: `loadstring(game:HttpGet("https://fyycommunity.com/"))()`
     }
   ];
 

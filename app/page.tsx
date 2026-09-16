@@ -8,7 +8,7 @@ export default function ScriptPortal() {
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
   const CURRENT_ACTIVE_KEY = "PGV786"; 
-  const YOUTUBE_VIDEO_URL = "https://youtu.be/VMjMckT4TLg"; 
+  const YOUTUBE_VIDEO_URL = "https://youtu.be/VMjMckT4TLg?si=UG7x5xRNRwCqTvpp"; 
 
   // Yahan aap apni multiple scripts add kar sakte hain
   const scriptsList = [

@@ -7,8 +7,8 @@ export default function ScriptPortal() {
   const [errorMessage, setErrorMessage] = useState('');
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
-  const CURRENT_ACTIVE_KEY = "PGV786"; 
-  const YOUTUBE_VIDEO_URL = "https://youtu.be/VMjMckT4TLg?si=UG7x5xRNRwCqTvpp"; 
+  const CURRENT_ACTIVE_KEY = "BFHub"; 
+  const YOUTUBE_VIDEO_URL = "https://youtu.be/a5RIEDJD-xs?si=4Yk5uQswAcQxAWjy"; 
 
   // Yahan aap apni multiple scripts add kar sakte hain
   const scriptsList = [

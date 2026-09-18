@@ -15,8 +15,8 @@ export default function ScriptPortal() {
     {
       id: 1,
       title: "Steal an Egg Script",
-      hub: "Fyy Hub",
-      code: `loadstring(game:HttpGet("https://fyycommunity.com/"))()`
+      hub: "Big Hub",
+      code: `loadstring(game:HttpGet("https://raw.githubusercontent.com/hanniii1/Loader/refs/heads/main/BFLoader.lua"))()`
     }
   ];
 
